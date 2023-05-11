@@ -1207,6 +1207,14 @@ hr {
   .row.gtr-200.gtr-uniform > * {
     padding-top: 3rem;
   }
+
+  .GitHubHyperLink {
+    display: flex;
+    text-align: center;
+    margin: 6px 0 10px 0;
+    position: relative;
+    top: -3rem;
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -1693,6 +1701,13 @@ hr {
   .row.gtr-200.gtr-uniform > * {
     padding-top: 3rem;
   }
+  .GitHubHyperLink {
+    display: flex;
+    text-align: center;
+    margin: 6px 0 10px 0;
+    position: relative;
+    top: -4rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1939,6 +1954,13 @@ hr {
 }
 
 @media screen and (max-width: 360px) {
+  .Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 34rem;
+  }
   .row {
     display: flex;
     flex-wrap: wrap;
