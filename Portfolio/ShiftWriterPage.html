@@ -1,123 +1,157 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Shift Writer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Shift Writer</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header"></header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="generic.html">Projects</a></li>
+        </ul>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ben-storms-4a7b01167/"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-github"
+              ><span class="label">GitHub</span></a
+            >
+          </li>
+        </ul>
+      </nav>
 
-				<!-- Header -->
-					<header id="header">
-						
-					</header>
+      <!-- Main -->
+      <div id="main">
+        <!-- Post -->
+        <section class="post">
+          <header class="major">
+            <h1>SCHEDULE AUTOMATOR WITH GOOGLE CALENDAR</h1>
+            <p>
+              A program written in Python that works with the Google Calendar
+              API to automatically write a users work shifts to Google Calendar
+              for them without the need for manual entry.
+            </p>
+          </header>
+          <div>
+            <img
+              class="pythonProgramImage"
+              src="images/GoogleCalendarProgramImage.png"
+              alt=""
+            />
+          </div>
+          <br />
+          <p>
+            After trying to find ways to stay organized and remember to use my
+            calendar. I thought, "what better way to remember to stay on top of
+            my schedule than to write an app that does it for me?" So using the
+            Google Calendar API as well as the Google OAuth 2.0 protocol, I was
+            able to write a Python program that runs on the command line and
+            asks the user for the date and time of their shifts, then
+            automatically enters the shift with that information into Google
+            Calendar as an event.
+          </p>
+          <br />
+          <a
+            href="https://github.com/BenStorms25/Shift-Automator-Using-Google-Calendar"
+            class="GitHubHyperLink"
+            >Click Here to View GitHub Repository</a
+          >
+        </section>
+      </div>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-                            <li class="active"><a href="generic.html">Projects</a></li>
-                            
-						
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+      <!-- Footer -->
 
-				<!-- Main -->
-					<div id="main">
+      <!-- Footer -->
+      <footer id="footer">
+        <section>
+          <form method="post" action="#">
+            <div class="fields">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="3"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li><input type="submit" value="Send Message" /></li>
+            </ul>
+          </form>
+        </section>
+        <section class="split contact">
+          <section>
+            <h3>Phone</h3>
+            <p><a href="#">(860) 951-6391</a></p>
+          </section>
+          <section>
+            <h3>Email</h3>
+            <p><a href="#">ben.storms2@gmail.com</a></p>
+          </section>
+          <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              <li>
+                <a href="#" class="icon brands alt fa-linkedin"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands alt fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+            </ul>
+          </section>
+        </section>
+      </footer>
 
-						<!-- Post -->
-							<section class="post">
-								<header class="major">
-									
-									<h1>SCHEDULE AUTOMATOR WITH GOOGLE CALENDAR</h1>
-                                    <p>A program written in Python that works with the Google Calendar API
-                                         to automatically write a users work shifts to Google Calendar for them without the need for manual entry.</p>
-                             
-                                </header>
-								<div><img class = "pythonProgramImage" src="images/GoogleCalendarProgramImage.png" alt="" /></div>
-                                <br>
-                                <p>After trying to find ways to stay organized and remember to use my calendar.  I thought, "what better way to remember to stay on top of my schedule than to write an app that does it for me?" So using the Google Calendar API as well as the Google OAuth 2.0 protocol, I was able to write a Python program that runs on the command line and asks the user for the date and time of their shifts, then automatically enters the shift with that information into Google Calendar as an event. </p>
-                                <br>
-                                <a href="https://github.com/BenStorms25/Shift-Automator-Using-Google-Calendar" class = "GitHubHyperLink">Click Here to View GitHub Repository</a>
-							</section>
+      <!-- Copyright -->
+      <div id="copyright">
+        <ul>
+          <li>&copy; Untitled</li>
+          <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </div>
 
-					</div>
-
-				<!-- Footer -->
-				
-				<!-- Footer -->
-                <footer id="footer">
-                    <section>
-                        <form method="post" action="#">
-                            <div class="fields">
-                                <div class="field">
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" id="name" />
-                                </div>
-                                <div class="field">
-                                    <label for="email">Email</label>
-                                    <input type="text" name="email" id="email" />
-                                </div>
-                                <div class="field">
-                                    <label for="message">Message</label>
-                                    <textarea name="message" id="message" rows="3"></textarea>
-                                </div>
-                            </div>
-                            <ul class="actions">
-                                <li><input type="submit" value="Send Message" /></li>
-                            </ul>
-                        </form>
-                    </section>
-                    <section class="split contact">
-                        
-                        <section>
-                            <h3>Phone</h3>
-                            <p><a href="#">(860) 951-6391</a></p>
-                        </section>
-                        <section>
-                            <h3>Email</h3>
-                            <p><a href="#">ben.storms2@gmail.com</a></p>
-                        </section>
-                        <section>
-                            <h3>Social</h3>
-                            <ul class="icons alt">
-                                
-                                <li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                                <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                            </ul>
-                        </section>
-                    </section>
-                </footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
